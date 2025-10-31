@@ -14,6 +14,23 @@ node_modules
 # testing
 /coverage
 
+```ignore
+.DS_Store
+
+# Virtual Environment
+venv
+
+# octofit tracker app
+# octfit-tracker
+
+# React node_modules
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
 # production
 /build
 
@@ -31,3 +48,8 @@ yarn-error.log*
 # Python files
 *.pyc
 __pycache__/
+
+# OctoFit backend virtualenv
+/octofit-tracker/backend/venv/
+
+```
